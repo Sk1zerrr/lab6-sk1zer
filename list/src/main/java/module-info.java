@@ -1,7 +1,7 @@
 module ua.opnu.list {
+    requires java.desktop;  // для Swing та AWT
     requires javafx.controls;
     requires javafx.fxml;
-
     requires org.controlsfx.controls;
 
     opens ua.opnu.list to javafx.fxml;
